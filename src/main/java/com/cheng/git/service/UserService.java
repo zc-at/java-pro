@@ -13,5 +13,9 @@ public class UserService {
         System.out.println("用户登录");
     }
 
+    @Test
+    public void register() {
+        System.out.println("用户注册");
+    }
 
 }
