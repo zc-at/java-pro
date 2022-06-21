@@ -8,14 +8,16 @@ import org.junit.Test;
  */
 public class UserService {
 
-    @Test
     public void login() {
         System.out.println("用户登录");
     }
 
-    @Test
     public void register() {
         System.out.println("用户注册");
+    }
+
+    public void service() {
+        System.out.println("修复部分BUG");
     }
 
 }
