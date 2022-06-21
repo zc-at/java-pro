@@ -24,5 +24,7 @@ public class UserService {
         System.out.println("修复部分BUG");
     }
 
-
+    public void update() {
+        System.out.println("紧急补丁");
+    }
 }
